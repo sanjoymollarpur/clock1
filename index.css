@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #320466;
+}
+.container{
+    
+   
+    height: 100vh;
+    margin: auto;
+    margin-top: 20px;
+}
+.first-con{
+    width: 20px;
+    position: absolute;
+    top: 100px;
+    left: 240px;
+}
+.clock{
+    width: 180px;
+    background-color: rgba(38, 3, 104, 0.815);
+}
+.clock-text{
+    position: absolute;
+    top:35px;
+    left:100px;
+    color: cornsilk;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.time-con{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background-color: cornsilk;
+    top: 100px;
+    left: 700px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(168, 80, 156);
+    border-radius: 9px;
+    
+}
+.trans-box1{
+    
+    /*background: red 0% 0% no-repeat padding-box;
+    position: absolute;
+    border-radius: 10px;*/
+    opacity: .8;
+    z-index: 1;
+    position: absolute;
+    border: 14px solid rgba(255, 255, 255, 0.63);
+    top: 80px;
+    width: 320px;
+    border-radius: 5px;
+}
+.trans-box2{
+    
+    /*background: red 0% 0% no-repeat padding-box;
+    position: absolute;
+    border-radius: 10px;*/
+    opacity: .3;
+    z-index: 0;
+    position: absolute;
+    border: 6px solid #8E53F0;
+    top: 105px;
+    width: 280px;
+    border-radius: 5px;
+}
+.line-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.sun-icon{
+    
+    width: 30px;
+    
+}
+.first-main{
+    width: 400px;
+    height: 180px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+    padding: 20px;
+    border-radius: 9px;
+}
+.gcom{
+    position: absolute;
+    background-color:rgba(127, 78, 219, 0.815); ;
+    top: 230px;
+    left: 0px;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.greeting{
+    width: 400px;
+    height: 20px;
+    padding: 20px;
+}
+.party{
+    position: absolute;
+    top: 300px;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(57, 57, 175),rgb(152, 32, 156));
+}
+.first-main1{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 700px;
+    top: 240px;
+    border-radius: 9px;
+    background-color: whitesmoke;
+}
+.main-img{
+    width: 400px;
+    height: 350px;
+    border-radius: 9px;
+}
+.clock-resize{
+    
+    border-radius: 50%;
+}
+
+#tclock3 {
+    background-color: rgb(168, 80, 156);
+    padding: 20px 7px;
+    color: white;
+    border-radius: 6px;
+}
+.time-clock {
+    margin: 0 10px;
+    padding: 10px;
+    color: rgb(168, 80, 156);
+    background-color: rgb(230, 205, 230);
+    border-radius: 6px;
+}
+.tc-txt{
+    font-size: 12px;
+}
+#ss1{
+    color: rgb(168, 80, 156);
+    width: 200px;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid rgb(219, 185, 185);
+}
+.line-text{
+    color: rgb(168, 80, 156);
+    
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+.ts{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(168, 80, 156);
+    color: rgb(168, 80, 156);
+}
+.vertline{
+    height: 10px;
+    border-left: 2px solid #3D087B;
+    position: absolute;
+}
+.v-l1{
+    height: 24px;
+    top: 67px;
+    left: 49px;
+}
+.v-l2{
+    height: 24px;
+    top: 108px;
+    left: 49px;
+}
+#imd{
+    padding: 17px;
+    text-align: center;
+
+    color: #3D087B;
+}
+@media screen and (max-width:768px) {
+     .container{
+         margin: 0;
+         top: 0;
+     }
+     .first-con{
+        top: 0;
+        left: 0;
+     }
+     .time-con{
+         top: 10;
+     }
+}
